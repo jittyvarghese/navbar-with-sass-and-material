@@ -1,0 +1,26 @@
+//Color
+$primary-color: white;
+$theme-color-main: #5A5773;
+$text-color: black;
+$logo-color: rgb(100, 98, 98);
+$mouse-hover: rgb(112, 112, 112);
+
+$mainFontWeight: 600;
+$secondaryFontWeight: 400;
+
+//Light/dark Mode
+$text-color-dark: black;
+$text-color-light: white;
+$background-color-dark: black;
+$background-color-light:white;
+
+
+@mixin transition($sec) {
+    transition: all $sec ease-in-out;
+}
+
+@mixin flexBox($display, $justify-content) {
+    display: $display;
+    justify-content: $justify-content;
+
+}
